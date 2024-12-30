@@ -10,6 +10,7 @@ int main() {
 
    //generating a random number between 1 to 500 
    rando = rand() % 500 +1;
+   printf("\nGuess a number between 1 and 500.");
 
    do{
     printf("\nEnter your number(1 to 500): ");
@@ -19,13 +20,12 @@ int main() {
     if(n>rando){
         printf("\nGo for smaller number.");
     }
-
     else if(n<rando){
         printf("\nGo for larger number. ");
     }
 
     else{
-        printf("\nCongratulations! You guessed the number in %d attempts.",count);
+        printf("\nCongratulations! The number was %d You guessed the number in %d attempts.",rando,count);
     }
    } while(n!=rando); 
 
