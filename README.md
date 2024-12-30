@@ -1,4 +1,4 @@
 Simple Guessing Game
 
 
-![Alt text](./Guessing_game.png)
+![Preview photo](./Guessing_game.png)
