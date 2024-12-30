@@ -6,7 +6,7 @@ int main() {
    int n, rando;
    int count = 0;
    printf("Welcome to the guessing game.\n ");
-   srand(time(NULL)); //seed
+   srand(time(NULL)); //seed the random number generator with the currnent time
 
    //generating a random number between 1 to 500 
    rando = rand() % 500 +1;
